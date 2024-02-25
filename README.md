@@ -13,7 +13,5 @@ The Pomodoro Technique was developed in the late 1980s by then-university studen
 ---
 
 ## Tech stack used in this project:
-
-![react.js icon](https://shields.io/badge/react-black?logo=react&style=for-the-badge) ![tailwindcss icon](https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss)
-
-<a href='https://tailwindcss.com/' target="_blank"><img alt='tailwindcss' src='https://img.shields.io/badge/Tailwindcss-100000?style=for-the-badge&logo=tailwindcss&logoColor=3ab8f7&labelColor=black&color=000000'/></a>
+<a href='https://react.dev/' target="_blank"><img alt='react' src='https://img.shields.io/badge/React.js-100000?style=for-the-badge&logo=react&logoColor=FFFFFF&labelColor=1498c7&color=1498c7'/></a>
+<a href='https://react.dev/' target="_blank"><img alt='tailwindcss' src='https://img.shields.io/badge/Tailwindcss-100000?style=for-the-badge&logo=tailwindcss&logoColor=FFFFFF&labelColor=3ab8f7&color=3ab8f7'/></a>
