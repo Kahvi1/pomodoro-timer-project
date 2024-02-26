@@ -8,6 +8,7 @@ function App() {
   // 2. Create a state that will track user input for how much cycle they want
 
   // a test to see if changes I made on the git profile matches my github profile
+  // another test of the git profile changes
 
   // User focused time and break time input variable
   const [focusTimeInput, setFocusTimeInput] = useState(25);
