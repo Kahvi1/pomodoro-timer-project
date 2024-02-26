@@ -7,6 +7,8 @@ function App() {
   // 1. Create a state that will track one cycle of the pomodoro timer
   // 2. Create a state that will track user input for how much cycle they want
 
+  // a test to see if changes I made on the git profile matches my github profile
+
   // User focused time and break time input variable
   const [focusTimeInput, setFocusTimeInput] = useState(25);
   const [breakTimeInput, setBreakTimeInput] = useState(5);
