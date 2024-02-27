@@ -2,6 +2,35 @@ import "./App.css";
 import React from "react";
 import { useState, useEffect } from "react";
 
+function Afunction() {
+  const [loading, setLoading] = useState(true);
+  const [resolvedData, setResolvedData] = useState(null);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      console.log("The use data was resolved");
+      setResolvedData("The data has been resolved");
+      setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    let interval;
+    if (loading) {
+      interval = setInterval(() => {
+        console.log("Loading...");
+      }, 1000);
+      setResolvedData("Loading...");
+    }
+
+    return () => clearInterval(interval);
+  }, [loading]);
+
+  return <div>{resolvedData}</div>;
+}
+
 function App() {
   // Things to do:
   // 1. Create a state that will track one cycle of the pomodoro timer
@@ -124,6 +153,7 @@ function App() {
 
   return (
     <div className="h-screen bg-teal-700">
+      <Afunction />
       <h1 className="pt-5 text-center font-bold text-white">Pomodoro Timer</h1>
       <div
         id="label"
